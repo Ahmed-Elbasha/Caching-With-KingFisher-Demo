@@ -13,6 +13,7 @@
 		7E39167E211342E20071825F /* CachingWithKingFisherDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E39167C211342E20071825F /* CachingWithKingFisherDemo.xcdatamodeld */; };
 		7E391680211342E70071825F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E39167F211342E70071825F /* Assets.xcassets */; };
 		7E391683211342E70071825F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E391681211342E70071825F /* LaunchScreen.storyboard */; };
+		7E39168B211346560071825F /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E39168A211346560071825F /* ImageCell.swift */; };
 		D2CCE4E562D49360DCE04C49 /* libPods-CachingWithKingFisherDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4645A13EB72242F64319AB6 /* libPods-CachingWithKingFisherDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		7E39167F211342E70071825F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E391682211342E70071825F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E391684211342E70071825F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E39168A211346560071825F /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		A4645A13EB72242F64319AB6 /* libPods-CachingWithKingFisherDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CachingWithKingFisherDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0B8CE0A127893AA740498F /* Pods-CachingWithKingFisherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CachingWithKingFisherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CachingWithKingFisherDemo/Pods-CachingWithKingFisherDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				7E391681211342E70071825F /* LaunchScreen.storyboard */,
 				7E391684211342E70071825F /* Info.plist */,
 				7E39167C211342E20071825F /* CachingWithKingFisherDemo.xcdatamodeld */,
+				7E39168A211346560071825F /* ImageCell.swift */,
 			);
 			path = CachingWithKingFisherDemo;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E391678211342E20071825F /* ViewController.swift in Sources */,
+				7E39168B211346560071825F /* ImageCell.swift in Sources */,
 				7E39167E211342E20071825F /* CachingWithKingFisherDemo.xcdatamodeld in Sources */,
 				7E391676211342E20071825F /* AppDelegate.swift in Sources */,
 			);
